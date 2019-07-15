@@ -50,16 +50,17 @@ body {
     /* 16px*/
     line-height: 2;
 }
-    .container {
+
+.container {
     padding-right: 0px !important;
     padding-left: 0px !important;
-    }
+}
 
 
 
 // -------------------------------------------------------------
 // Header Style~
-header {
+.top-page header {
     position: relative;
     height: 200px;
     background: url("../images/header.jpg") center no-repeat;
@@ -135,16 +136,6 @@ a .navbar-brand {
     color: #fff;
 }
 
-// .sec {
-//     margin-bottom: 120px;
-// }
-// .page-title__title {
-//     color: #333;
-//     font-size: 48px;
-//     font-weight: 700;
-//     margin-bottom: 40px;
-//     text-align: center;
-// }
 // ~Movie Full Screen Style
 // -------------------------------------------------------------
 // Article Style~
@@ -157,10 +148,10 @@ main {
 article {
     position: relative;
     width: 100%;
-    margin: 20px auto;
+    margin: 20px 0 10px 0;
+    padding: 30px 15px;
     background-color: #f8f9fa;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .1);
-    padding-top: 50px;
 
     .article-1 {
         text-align: center;
@@ -195,6 +186,7 @@ article {
 
 .thumbnail img {
     height: 100%;
+    object-fit: cover;
 }
 
 iframe {
@@ -394,7 +386,32 @@ h2 {
     margin: 0 !important;
 }
 
-// Member site Style
-.band {
-    background-color: #ddd;
+// Member.html Style~
+.member-page header {
+    position: relative;
+    height: 200px;
+    background: url("../images/headerimg01.jpg") center no-repeat;
+    background-color: #dcf6fe;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 10;
 }
+.card{
+        background-color: #f8f9fa;
+}
+.card-body h6{  /*略歴の調整*/
+    margin: 25px 0 12px 12px;
+}
+.card-img{
+    height: 100%;
+    object-fit: cover;
+}
+.container .biography {
+    position: relative;
+    width: 100%;
+    margin: 20px 0 10px 0;
+    background-color: #f8f9fa;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .1);
+}
+// ~Member.html Style
