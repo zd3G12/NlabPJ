@@ -421,7 +421,6 @@ h2 {
 .card-img {
    height: 100%;
     object-fit: cover;
-    margin: 20px 0;
     overflow: hidden;
 }
 
@@ -433,8 +432,6 @@ h2 {
 .biography {
     position: relative;
     width: 100%;
-    margin: 20px 0 10px;
-    padding: 30px 15px;
     background-color: #f8f9fa;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .1);
     overflow: hidden;
@@ -444,5 +441,11 @@ h2 {
         font-weight: bold;
     }
 }
-
+.alt-table-responsive {
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch;
+}
 // ~Member.html Style
