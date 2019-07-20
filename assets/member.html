@@ -25,10 +25,10 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle p-0 ml-4" href="#" role="button" data-toggle="dropdown">
                                 研究活動
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">治療支援</a>
                                 <a class="dropdown-item" href="#">医療訓練システム</a>
                                 <a class="dropdown-item" href="#">舌画像の計測・解析</a>
@@ -37,17 +37,17 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle p-0 ml-4" href="member.html" role="button" data-toggle="dropdown">
                                 メンバー
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="member.html">スタッフ</a>
-                                <a class="dropdown-item" href="member.html">学生 2019年度 前期</a>
-                                <a class="dropdown-item" href="#">卒業生，留学生</a>
+                                <a class="dropdown-item" href="member.html#student-2019">学生 2019年度 前期</a>
+                                <a class="dropdown-item" href="member.html#graduates">卒業生，留学生</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle p-0 ml-4" href="#" role="button" data-toggle="dropdown">
                                 業績
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -61,7 +61,7 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle p-0 ml-4" href="#" role="button" data-toggle="dropdown">
                                 ニュース
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -74,8 +74,8 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                セミナー
+                            <a class="nav-link dropdown-toggle p-0 ml-4" href="#" role="button" data-toggle="dropdown">
+                                ゼミ活動
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="test.html">中口研ゼミについて</a>
@@ -88,20 +88,7 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                アルバム
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">2019前期</a>
-                                <a class="dropdown-item" href="#">2018後期</a>
-                                <a class="dropdown-item" href="#">2018前期</a>
-                                <a class="dropdown-item" href="#">2017後期</a>
-                                <a class="dropdown-item" href="#">2017前期</a>
-                                <a class="dropdown-item" href="#">～2016</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle p-0 ml-4" href="#" role="button" data-toggle="dropdown">
                                 ゼミメンバー専用
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -111,17 +98,24 @@
                                 <a class="dropdown-item" href="#">Slack</a>
                             </div>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-0 ml-4" href="#" role="button" data-toggle="dropdown">
+                                コンタクト
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">お問い合わせ</a>
+                                <a class="dropdown-item" href="#">アクセス</a>
+                            </div>
+                        </li>
                     </ul>
-                    <form class="form-inline mt-2 mt-md-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </nav>
-        <div class="container">
+        <div id="staff" class="container">
             <div class="biography mt-4 py-5 px-4">
-                <h3>スタッフ</h3>
+                <div class="title-1">
+                    <h3 class="mb-4">スタッフ</h3>
+                </div>
                 <div class="card mb-3" style="max-width: 100%;">
                     <div class="row no-gutters">
                         <div class="col-md-4 py-4">
@@ -206,7 +200,9 @@
         </div>
         <div id="student-2019" class="container">
             <div class="biography mt-4 py-5 px-4">
-                <h3>学生　2019年度 前期</h3>
+                <div class="title-1">
+                    <h3 class="mb-5">学生　2019年度 前期</h3>
+                </div>
                 <div class="card mt-4" style="width: 100%">
                     <img src="images/lab20190411.jpg" class="card-img-top" alt="...">
                     <div class="card-body px-0 pb-0">
@@ -304,9 +300,11 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div id="graduates" class="container">
             <div class="biography my-4 py-5 px-4">
-                <h3>卒業生，滞在した留学生</h3>
+                <div class="title-1">
+                    <h3 class="mb-3">卒業生，滞在した留学生</h3>
+                </div>
                 <div class="card mt-4" style="width: 100%">
                     <div class="card" style="width: 100%">
                         <div class="card-body px-0 pb-0">
