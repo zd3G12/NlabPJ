@@ -62,13 +62,21 @@ body {
 // Header Style~
 .top-page header {
     position: relative;
-    height: 200px;
-    background: url("../images/header.jpg") center no-repeat;
+    height: 150px;
+    background: url("../images/header02.jpg") center no-repeat;
     background-color: #076EB2;
-    text-indent: 100%;
-    white-space: nowrap;
     overflow: hidden;
     z-index: 10;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    -webkit-justify-content: center;
+    /* 横方向中央揃え（Safari用） */
+    justify-content: center;
+    /* 横方向中央揃え */
 }
 
 // ~Header Style
@@ -103,18 +111,18 @@ a .navbar-brand {
     top: 0 !important;
 }
 
-.box__centered {
-    width: 100%;
-    left: 50%;
-    position: absolute;
-    top: 22%;
-}
+// .box__centered {
+//     width: 100%;
+//     left: 50%;
+//     position: absolute;
+//     top: 22%;
+// }
 
-.box__contents {
-    width: 100%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
+// .box__contents {
+//     width: 100%;
+//     text-align: center;
+//     transform: translate(-50%, -50%);
+// }
 
 .box__title {
     // font-family: 'Noto Serif JP', serif;
@@ -124,7 +132,7 @@ a .navbar-brand {
     // font-size: 3vw;
     text-shadow: 2px 2px 5px #000;
     color: #fff;
-    margin-bottom: 30px;
+    text-align: center;
 }
 
 .box__text {
@@ -134,6 +142,7 @@ a .navbar-brand {
     // font-size: 2vw;
     text-shadow: 2px 2px 5px #000;
     color: #fff;
+    text-align: center;
 }
 
 // ~Movie Full Screen Style
@@ -150,8 +159,10 @@ main {
     width: 100%;
     background-image: url(../images/Newspaper.png);
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .1);
+
     .title-1 {
         text-align: center;
+
         h3 {
             color: rgba(7, 110, 178, .95);
             font-weight: bold;
@@ -159,13 +170,15 @@ main {
     }
 }
 
-twitter-time-line{
-   position: relative;
+twitter-time-line {
+    position: relative;
     width: 100%;
     background-color: #f8f9fa;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .1);
+
     .title-1 {
         text-align: center;
+
         h3 {
             color: rgba(7, 110, 178, .95);
             font-weight: bold;
@@ -230,15 +243,25 @@ address {
     color: rgba(255, 255, 255, .75);
     ;
 }
-.joinUs-btn{
+
+.joinUs-btn {
     opacity: 0.9;
-    }
-.joinUs-btn:hover{
+}
+
+.joinUs-btn:hover {
     opacity: 0.5;
-    transition: 0.5s ;
+    transition: 0.5s;
     font-weight: bold;
 }
+
 // ~Footer Style
+// link-style
+.anchor{
+    display: block;
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
 // -------------------------------------------------------------
 // Background pattern~
 // .hexagon {
@@ -347,34 +370,37 @@ nav {
 }
 
 // ~Scroll Style
-// -------------------------------------------------------------
+// -----------
+// ~Font Style
 h1 {
-    font-size: 30px;
+    font-size: 24px;
     /* IE8以下とAndroid4.3以下用フォールバック */
-    font-size: calc(2rem + ((1vw - 0.64rem) * 2.1429));
+    font-size: calc(1.4rem + ((1vw - 0.64rem) * 2.1429));
     /* 24px~36pxで可変*/
-    line-height: 1.3;
+    line-height: 1.2;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 20px;
     /* IE8以下とAndroid4.3以下用フォールバック */
-    font-size: calc(1.5rem + ((1vw - 0.64rem) * 0.7143));
+    font-size: calc(1.2rem + ((1vw - 0.64rem) * 0.7143));
     /* 20px~24pxで可変*/
     line-height: 1.3;
+    // font-weight: bold;
 }
 
 @media (min-width: 1200px) {
 
     /* 1200px以上*/
     h1 {
-        font-size: 2rem;
+        font-size: 1.4rem;
         font-weight: bold;
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        // font-weight: bold;
     }
 }
 
@@ -392,7 +418,8 @@ h2 {
     }
 
     h2 {
-        font-size: 0.8rem;
+        font-size: 1rem;
+        // font-weight: bold;
         /* 20px*/
     }
 }
@@ -423,7 +450,7 @@ h2 {
 // Member.html Style~
 .member-page header {
     position: relative;
-    height: 200px;
+    height: 150px;
     background: url("../images/headerimg01.jpg") center no-repeat;
     background-color: #dcf6fe;
     text-indent: 100%;
@@ -454,7 +481,7 @@ h2 {
 }
 
 
-.biography {
+.box-area {
     position: relative;
     width: 100%;
     background-color: #f8f9fa;
@@ -462,10 +489,26 @@ h2 {
     overflow: hidden;
 }
 
- .title-1 h3{
-        text-align: center;
-        color: rgba(7, 110, 178, .95);
-        font-weight: bold;
-    }
+.title-1 h3 {
+    text-align: center;
+    color: rgba(7, 110, 178, .95);
+    font-weight: bold;
+}
 
 // ~Member.html Style
+
+// reserch.html Style~
+.reserch-page header {
+    display: flex;
+    position: relative;
+    height: 150px;
+    background-color: #1DA96F;
+    overflow: hidden;
+    .icon-box{
+        height: 100%;
+        max-width:100%;
+        margin: auto;
+    img{
+        height: 75%;
+    }
+}}
