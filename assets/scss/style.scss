@@ -94,6 +94,30 @@ a .navbar-brand {
 }
 
 // ~Navbar Style
+// Button Link anime style--------------
+.nav-link a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.nav-link a::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.nav-link a:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
+// Button Link anime style--------------
 
 // -------------------------------------------------------------
 // Movie Full Screen Style~
@@ -185,11 +209,6 @@ twitter-time-line {
         }
     }
 }
-
-
-
-
-
 
 .article-2 {
     position: relative;
@@ -512,3 +531,5 @@ h2 {
         height: 75%;
     }
 }}
+
+
