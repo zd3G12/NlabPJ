@@ -181,8 +181,7 @@ main {
 .recent-news {
     position: relative;
     width: 100%;
-    background-image: url(../images/Newspaper.png);
-    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .1);
+    // box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .1);
 
     .title-1 {
         text-align: center;
@@ -532,4 +531,7 @@ h2 {
     }
 }}
 
-
+// ボタンホバーstyle
+a:hover{
+    opacity: 0.8;
+}
