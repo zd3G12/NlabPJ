@@ -629,3 +629,20 @@ url("../images/header052.jpg") repeat-x;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, .8);
     }
 }
+
+.achievement-page header {
+    background: url("../images/header07.jpg") center no-repeat;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    height: 150px;
+    width: 100%;
+
+    h1 {
+        color: #fff;
+        font-weight: bold;
+        margin-top: 30px;
+        opacity: 0.75;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, .8);
+    }
+}
