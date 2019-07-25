@@ -460,17 +460,7 @@ nav {
     margin: 0 !important;
 }
 
-// Member.html Style~
-.member-page header {
-    position: relative;
-    height: 150px;
-    background: url("../images/headerimg01.jpg") center no-repeat;
-    background-color: #dcf6fe;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    z-index: 10;
-}
+
 
 .card {
     background-color: #f8f9fa;
@@ -645,4 +635,11 @@ url("../images/header052.jpg") repeat-x;
         opacity: 0.75;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, .8);
     }
+}
+
+.top-page .titles h2{
+    font-weight:bold;
+    color: #fff;
+    text-shadow:1px 3px 3px #3AA0D4,
+    3px 3px 8px #3AA0D4;
 }
