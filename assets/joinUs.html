@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>研究テーマ|Nakaguchi Lab. Chiba Univ.</title>
+    <title>研究への参加|Nakaguchi Lab. Chiba Univ.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" />
     <!-- <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,700|Noto+Serif+JP:400,700&display=swap&subset=japanese" rel="stylesheet"> -->
@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="reserch-page">
+<body class="joinUs-page">
     <header>
         <div class="header-title w-100 text-center p-5">
-            <h1 class="d-inline h2">研究テーマ</h1>
+            <h1 class="d-inline h2">研究への参加</h1>
         </div>
     </header>
     <main>
@@ -52,14 +52,14 @@
                                 <h5 class="d-inline text-white mr-4">業績</h5>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="achievement.html">受賞</a>
+                                <a class="dropdown-item" href="achievement.html#award">受賞</a>
                                 <a class="dropdown-item" href="achievement.html#paper">原著論文</a>
                                 <a class="dropdown-item" href="achievement.html#intl">国際会議</a>
                                 <a class="dropdown-item" href="achievement.html#domes">国内学会・研究会</a>
                                 <a class="dropdown-item" href="achievement.html#book">著書</a>
                                 <a class="dropdown-item" href="achievement.html#review">解説・記事</a>
                                 <a class="dropdown-item" href="achievement.html#exhibit">展示</a>
-                                <a class="dropdown-item" href="achievement.html#society">学会活動</a>
+                                <a class="dropdown-item" href="achievement.html#">学会活動</a>
                             </div>
                         </li>
                         <li class="col-xs-12 nav-item dropdown">
@@ -115,251 +115,71 @@
                 </div>
             </div>
         </nav>
-        <div id="tss" class="container anchor">
-            <div class="titles pt-5 pb-2">
-                <div class="row justify-content-md-center">
-                    <div class="icon1 mt-1">
-                    </div>
-                    <h3 class="p-3">治療支援</h3>
-                </div>
-            </div>
-            <div class="card my-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/03.png" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">投影型拡張現実感による医療支援</h5>
-                            <p class="card-text">モニタを観ながらの作業が長時間続く内視鏡外科手術は術者の負担が大きい。そこで患者の体表にプロジェクター投影による映像を提示することで、作業対象である患者を観ながらの手術が可能となる。本研究では投影型拡張現実感技術を用いた医療支援を実現するシステムを提案している。</p>
+        <div class="container">
+            <div class="card shadow bg-white px-5 py-3 my-5" style="max-width: 100%;">
+                <section class="mb-4">
+                    <!--Section heading-->
+                    <h2 class="h2 font-weight-bold text-center my-4 text-dark">お問い合わせ</h2>
+                    <!--Section description-->
+                    <p class="text-center w-responsive mx-auto mb-5">中口研究室ではコンピュータ画像処理技術を活用して、診断支援・治療支援・生体計測に関する研究を行っています<br>
+                        医工学コース3年生の皆さん、他大学から大学院入学を希望する皆さん、医工学研究に関心のある企業の方々<br>
+                        研究室見学，研究相談は随時受け付けています。コンタクトフォームもしくはメールにてお問い合わせください。</p>
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-md-12 mb-md-0 mb-3">
+                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                                <div class="row">
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-4">
+                                            <label for="name" class="m-0">
+                                            <i class="fa fa-user" aria-hidden="true"></i> お名前（必須）</label>
+                                            <input type="text" id="name" name="name" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-4">
+                                            <label for="email" class="m-0">
+<i class="fa fa-envelope" aria-hidden="true"></i>
+                                            メールアドレス（必須）</label>
+                                            <input type="text" id="email" name="email" class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+                                <!--Grid row-->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-4">
+                                            <label for="subject text-muted" class="m-0">
+                                                <i class="fa fa-pencil-square " aria-hidden="true"></i> 件名</label>
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+                                <!--Grid row-->
+                                <div class="row">
+                                    <!--Grid column-->
+                                    <div class="col-md-12">
+                                        <div class="md-form">
+                                            <label for="message" class="m-0">
+<i class="fa fa-commenting" aria-hidden="true"></i>
+                                            メッセージ</label>
+                                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="text-center text-md-left">
+                                <a class="btn btn-primary mt-4" onclick="document.getElementById('contact-form').submit();" style="color: #ffffff; background-color: #076EB2; ">送信</a>
+                            </div>
+                            <div class="status"></div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="card mb-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_cas2.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">カメラ付きトロカールの開発</h5>
-                            <p class="card-text">視覚情報の不足は内視鏡外科手術の深刻な課題のひとつである．内視鏡の画質・解像度は向上しているが，一方向からの視点に制限される状況は改善できない．そこで内視鏡外科手術で用いられるトロカールに小型カメラを組み込んだ全く新しい医療用カメラ「カメラ付きトロカール」を提案し，実用化に向けた開発を進めている．これにより体腔内を多方向視点で観察しながらの内視鏡外科手術が可能となり安全性向上や高精度化が期待できる．</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_cas3.png" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">多眼モザイキングによる内視鏡手術の視野拡大</h5>
-                            <p class="card-text">内視鏡外科手術の視覚情報を拡大するカメラ付きトロカールを開発している．多眼化するカメラ映像を効率的に医師に提示する方法としてカメラ映像を接続するリアルタイム・モザイキングが求められている．本研究ではカメラ単体のトラッキングと，複数カメラ間のモザイキングを組み合わせたロバストかつ高速な画像処理手法を提案している．</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_cas4.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">腹腔内三次元形状復元</h5>
-                            <p class="card-text">内視鏡外科手術のコンピュータナビゲーションの実現には腹腔内臓器・組織の表面三次元情報が必要である．そこで本研究ではカメラ付きトロカールによる複数視点映像とSLAM技術に基づく実時間三次元再構成技術を組み合わせた腹腔内三次元形状復元手法を提案している．</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div id="mts" class="container anchor">
-            <div class="titles pt-5 pb-2">
-                <div class="row justify-content-md-center">
-                    <div class="icon2 mt-1">
-                    </div>
-                    <h3 class="p-3">医療訓練システム</h3>
-                </div>
-            </div>
-            <div class="card my-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_sim1.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">拡張現実型聴診訓練システムEARS</h5>
-                            <p class="card-text">現在の医学教育における聴診の訓練は主にマネキン型装置が使われているが，高価かつ大きなスペースを要するなどコストの問題が大きい．加えて，聴診時は患者とのコミュニケーションも重要であるがマネキン型装置は医療面接訓練には対応できない．そこで模擬患者など健常者の体表に，本研究で開発した仮想聴診器を当てることで任意の心音・呼吸音を再生し，様々な病態を再現できる拡張現実型聴診訓練システムEARS (Educational Augmented Reality Auscaltation System)を提案している．</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_sim2.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">拡張現実型穿刺訓練システム</h5>
-                            <p class="card-text">穿刺は基本的な医療行為であるが，依然として医療事故のリスクが高く，効果的な教育訓練による確実な技能取得が求められる．現状の医学教育では人体マネキンや練習用パッドを用いた訓練が行われており，VR技術を用いたシミュレータも研究が進められているが，いずれの訓練手法も人を相手としないことによるリアリティの不足が課題であった．そこで模擬患者に対して仮想的に穿刺訓練を行う拡張現実型穿刺訓練システムを提案している．本システムを用いることで医療面接の訓練を同時に実施することができ，定量的な手技の記録や評価も可能となる．</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_sim3.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">バーチャルリアリティ腹腔鏡下手術訓練システム</h5>
-                            <p class="card-text">バーチャルリアリティ技術を用いた医療トレーニングシステムを実現するために高い精度の物理シミュレーションが求められる．高実時間性を有する軟性臓器の変形モデル，自己衝突に対応した管腔臓器の変形モデル，複数鉗子による操作や破断，吻合といった手技を再現する手法を提案した．</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_sim4.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">バーチャルリアリティ穿刺訓練システム</h5>
-                            <p class="card-text">バーチャルリアリティ技術を用いた穿刺トレーニングシステムを開発した．穿刺位置を決定するための触診手技を再現するため，触覚の記録と再現技術を提案し，体表の触覚分布をモデル化したハプティックテクスチャを提案した．ハプティックデバイスを用いた鎖骨下静脈穿刺と腰椎穿刺のトレーニングシステムを実装した．</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div id="tias" class="container anchor">
-            <div class="titles pt-5 pb-2">
-                <div class="row justify-content-md-center">
-                    <div class="icon3 mt-1">
-                    </div>
-                    <h3 class="p-3">舌画像の計測・解析</h3>
-                </div>
-            </div>
-            <div class="card my-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_tias1.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">舌画像撮影・解析システムTIAS</h5>
-                            <p class="card-text">舌は広い領域を直接的かつ簡易的に記録できる粘膜組織であり，全身の健康状態を反映して様々にみえが変化するが，客観的な記録手段が確立されていない．そこで舌の色，形状，湿潤度などを定量的に記録する舌画像撮影システムTIAS(Tongue Image Analyzing System)を提案した．TIASは舌表面に均質な照明光を照射するため積分球とLED光源，高精度カメラ，あご台で構成している．基礎実験により舌撮影の基本プロトコルを確立した．</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_tias2.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">舌色解析による東洋医学診断支援</h5>
-                            <p class="card-text">東洋医学では「舌は全身の鏡」と言われ，舌のみえから健康状態を診断する．本研究では多数の漢方専門医を対象に調査研究を実施し，舌色と漢方所見のデータベースを構築した．このデータベースを基に機械学習器を構築し舌写真から漢方所見を推定する診断支援システムを構築した．</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_tias3.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">舌苔（ぜったい）イメージング</h5>
-                            <p class="card-text">舌表面に付着する苔は体調などによって変化する．そこで苔の付着分布やその厚みを定量的に記録するためのイメージング技術が求められている．本研究では蛍光撮影技術を応用した舌苔イメージング手法を提案している．</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_tias4.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">舌下静脈の記録と解析</h5>
-                            <p class="card-text">健康状態の変化により舌下（舌の裏側）を走行する静脈に変化が現れることがわかっている．静脈の怒張や蛇行を定量化するため，近赤外光を用いた舌下撮影装置を開発した．簡単な手操作で舌下静脈の怒張と蛇行を定量的に記録する解析アルゴリズムを提案した．</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_tias5.png" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">舌色の正確な記録のための校正色票の提案と評価</h5>
-                            <p class="card-text">舌色の変化は僅かであるため，カメラの色校正に一般的に用いられる色票では校正精度が不足する．そこで舌色に特化した校正色票を提案した．膨大な量の舌色分光計測を実施して舌の色域を調査した．この色域分布から校正に必要な色票12色を決定し有効性を評価した．</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div id="mids" class="container anchor">
-            <div class="titles pt-5 pb-2">
-                <div class="row justify-content-md-center">
-                    <div class="icon4 mt-1">
-                    </div>
-                    <h3 class="p-3">画像診断支援</h3>
-                </div>
-            </div>
-            <div class="card my-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_cad1.png" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">MRA画像からの脳動脈瘤検出</h5>
-                            <p class="card-text">脳動脈瘤の早期発見を目指してMRA画像からの自動処理による脳動脈瘤検出手法を提案している．細線化処理と形状記述特徴を組み合わせた候補領域検出処理と，Random Forest学習器を用いた識別処理によって動脈瘤の発生箇所を提示する．東京大学医学部附属病院との共同研究に関する情報公開</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_cad2.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">CT画像からの肝臓病変部位検出</h5>
-                            <p class="card-text">肝臓に発生した転移がんや嚢胞などの病変部位をCT画像解析により検出することを試みた．テクスチャ解析に基づいてEarth Movers DistanceによりCT値ヒストグラム間距離を算出する．病変組織と健常組織の特徴を機械学習によって識別するアルゴリズムを提案した．</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-3 shadow bg-white" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-3">
-                        <img src="images/tp_cad3.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-9 py-3 px-4">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bolder text-dark mb-4">CT画像からの膵臓形状の半自動抽出</h5>
-                            <p class="card-text">CT画像から膵臓形状を抽出するため，Level Set領域拡張法を適用した．しかし膵臓は隣接する臓器とCT値の差異が少なく，領域拡張法では適切な形状を抽出できない．そこで，膵臓全体を包含する領域を手動により与えることで膵臓の境界を示すエッジ信頼度という指標を提案した．エッジ信頼度に基づいてLevel Set領域拡張法を適用することで臓器の隣接による過抽出の問題を解決した．また手動作業を効率化するため3次元ポインティングデバイスを用いたユーザインターフェースも開発した．</p>
-                        </div>
-                    </div>
-                </div>
+                </section>
             </div>
         </div>
         <ul class="bxslider">
@@ -406,7 +226,7 @@
                     <div class="col-6 col-sm-2">
                         <h5><a class="text-light" href="achievement.html">業績</a></h5>
                         <ul class="list-unstyled text-small">
-                            <li><a class="text-light" href="achievement.html">受賞</a></li>
+                            <li><a class="text-light" href="achievement.html#award">受賞</a></li>
                             <li><a class="text-light" href="achievement.html#paper">原著論文</a></li>
                             <li><a class="text-light" href="achievement.html#intl">国際会議</a></li>
                             <li><a class="text-light" href="achievement.html#domes">国内学会・研究会</a></li>
